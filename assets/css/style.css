@@ -84,7 +84,7 @@ section{
 .hero{
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: relative;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -194,7 +194,10 @@ section{
 .steps span{
     font-size: 38px;
 }*/
-  
+.stecps{
+    background: #fce138;
+}  
+
 .step{
     margin: 50px auto;
     padding-bottom: 50px;
@@ -358,10 +361,6 @@ section{
       color: #fce138;
   }
 
-  .flex-row{
-      display: flex;
-  }
-
   .contact-form input,
   .contact-form textarea{
       border: 1px solic #024e76;
@@ -383,3 +382,7 @@ section{
       padding: 15px 0;
       font-size: 16px;
   }
+
+  .flex-row{
+    display: flex;
+}
